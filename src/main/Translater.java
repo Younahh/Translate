@@ -29,6 +29,7 @@ public class Translater extends HttpServlet {
 	public Translater() {
         super();
         languageTranslator.setServiceUrl("https://api.us-south.language-translator.watson.cloud.ibm.com/instances/475d396d-751e-44c0-899d-2fb130b48923");
+		/*Vous devez spécifié le path du dossier profiles pour que la detection des langues fonctionne sans probléme*/
         String profileDirectory = "C:\\Users\\tacey\\eclipse-workspace\\Translater_Project\\profiles";
         
         try {
