@@ -73,7 +73,7 @@ public class Translater extends HttpServlet {
 			break;
 			
 		default :			
-			xInput=Language.EN;
+			xInput=Language.FR;
 			
 		}
 		
