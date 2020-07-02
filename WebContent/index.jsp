@@ -23,7 +23,7 @@
 		<div class="col-md-12">
 			<h1 align = "center">Welcome To Translator X</h1>
 			<hr>
-			<form action="./Translater" id = "translate-form">
+			<form action="./Translater" method = "post" id = "translate-form">
 				<input name="in" type="hidden" id="inputLang1" >
 				<input name="out" type="hidden" id="inputLang2" >
 					
