@@ -30,10 +30,10 @@
 				<div class="row">
 					<div class="col-md-5">
 						<div class="btn-group" role="group">
-							<button class="btn btn-secondary" type="button" onclick="textIn('default')">Detect Language</button>
-							<button class="btn btn-secondary" type="button" onclick="textIn('english')">English</button> 
-							<button class="btn btn-secondary" type="button" onclick="textIn('french')">French</button> 
-							<button class="btn btn-secondary" type="button" onclick="textIn('espagnol')">Espagnol</button>						
+							<button class="btn btn-secondary" type="button" onclick="textIn('DetectLanguage')">Detect Language</button>
+							<button class="btn btn-secondary" type="button" onclick="textIn('English')">English</button> 
+							<button class="btn btn-secondary" type="button" onclick="textIn('French')">French</button>
+							<button class="btn btn-secondary" type="button" onclick="textIn('Espagnol')">Espagnol</button>						
 						</div>
 					</div>
 					<div class="col-md-2">					 
@@ -41,10 +41,10 @@
 					</div>
 					<div class="col-md-5">
 						<div class="btn-group" role="group"> 
-							<button class="btn btn-secondary" type="button" onclick="textOut('english')">English</button> 
-							<button class="btn btn-secondary" type="button" onclick="textOut('french')">French</button> 
-							<button class="btn btn-secondary" type="button" onclick="textOut('espagnol')">Espagnol</button>
-							<button class="btn btn-secondary" type="button" onclick="textOut('arabe')">Arabe</button>
+							<button class="btn btn-secondary" type="button" onclick="textOut('English')">English</button> 
+							<button class="btn btn-secondary" type="button" onclick="textOut('French')">French</button> 
+							<button class="btn btn-secondary" type="button" onclick="textOut('Espagnol')">Espagnol</button>
+							<button class="btn btn-secondary" type="button" onclick="textOut('Arabe')">Arabe</button>
 						</div>
 					</div>
 				</div>
