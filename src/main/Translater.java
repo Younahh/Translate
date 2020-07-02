@@ -55,40 +55,44 @@ public class Translater extends HttpServlet {
 		String xInput;
 		
 		switch(LangueInput) {  
-		case "english":
+		case "English":
 			xInput=Language.EN;
 			break;
 
-		case "french":
+		case "French":
 			xInput=Language.FR;
 			break;   
 		
-		case "espagnol":
+		case "Espagnol":
 			xInput=Language.ES;
 			System.out.println("lang es " + xInput);
 			break;
+		
+		case "DetectLanguage"
+			xInput=detector.detect();
+			break;
 			
 		default :			
-			xInput=detector.detect();
-			System.out.println("lang " + xInput);
+			xInput=Language.EN;
+			
 		}
 		
 		String xOutput;
 		
 		switch(LangueOutput) {
-		case "english":
+		case "English":
 			xOutput=Language.EN;
 			break;
 			
-		case "french":
+		case "French":
 			xOutput=Language.FR;
 			break;
 		
-		case "espagnol":
+		case "Espagnol":
 			xOutput=Language.ES;
 			break;
 		
-		case "arabe":
+		case "Arabe":
 			xOutput=Language.AR;
 			break;
 			
